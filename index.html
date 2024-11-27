@@ -9,23 +9,26 @@
 </head>
 <body>
 
-    <header class="d-flex justify-content-center align-items-center bg-primary p-1">
-        <h1>Entrar</h1>
+    <header class="d-flex justify-content-center align-items-center bg-success p-2">
+        <h1 class="text-light">Entrar</h1>
     </header>
 
-    <main class="d-flex flex-column justify-content-center align-items-center border border-primary w-100 h-50 position-absolute top-50 start-50 translate-middle">
+    <main class="d-flex flex-column justify-content-center align-items-center w-100">
 
-        <form action="post" method="post" class="d-flex flex-column justify-content-center align-items-center border border-success m-3 w-100 h-50">
+        <form action="post" method="post" class="d-flex flex-column justify-content-center align-items-center border border-success w-100 h-50 position-absolute top-50 start-50 translate-middle bg-body-secondary">
+
             <div class="input-group flex-nowrap m-1 w-50">
-                <input type="email" class="form-control" placeholder="Username" aria-label="E-mail" aria-describedby="addon-wrapping" name="email" id="email">
+                <input type="email" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="addon-wrapping" name="email" id="email">
             </div>
+            
             <div class="input-group flex-nowrap m-1 w-50">
                 <input type="password" class="form-control" placeholder="Senha" aria-label="Username" aria-describedby="addon-wrapping" name="password" id="password">
             </div>
+
         </form>
 
-        <div class="w-100">
-            <button class="btn btn-lg btn-success w-100 py-2" type="submit">Entrar</button>
+        <div class="w-100 position-absolute bottom-0 start-50 translate-middle-x">
+            <button class="btn btn-lg btn-success w-100 py-2 rounded-0 fs-3" type="submit">Entrar</button>
         </div>
     </main>
 
